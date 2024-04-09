@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coin Flip</title>
+        <link rel="stylesheet" href="styles/08-coin-flip.css">
+    </head>
+    <body>
+
+        <p class="title">Coin Flip</p>
+
+        <button class="move-button" onclick="
+            playGame('Heads');   
+        ">Heads</button>
+
+        <button class="move-button" onclick="
+            playGame('Tails');
+        ">Tails</button>
+
+        <p class="js-result result"></p>
+
+        <p class="js-score score"></p>
+
+        <button class="clear-score-button" onclick="
+            resetScore();
+        ">Clear Score</button>
+
+        <script src="scripts/08-coin-flip.js"></script>
+    </body>
+</html>
